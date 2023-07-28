@@ -5,6 +5,7 @@ import Home from '../components/Home'
 // import Register from '../components/Register'
 import Main from '../layout/Main'
 import About from '../components/about'
+import SurahList from '../components/SurahList'
 
 // import Profile from '../components/Profile'
 // import PrivateRoute from './PrivateRoute'
@@ -30,11 +31,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
+        element: <SurahList />,
       },
       {
         path: '/home',
-        element: <Home />,
+        element: <SurahList />,
       },
       {
         path:'/about',

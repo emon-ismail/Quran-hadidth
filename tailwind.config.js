@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
+      green:'#008000',
       // 'metal':'#164B60',
       // Add your custom colors here
       primary: 'F11A7B', // Custom primary color (example: orange-red)
